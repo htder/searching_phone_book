@@ -189,6 +189,7 @@ public class Main {
                 numbers.put(temp[1], temp[0]);
             }
         }
+        loaded_file.close();
         return numbers;
     }
 
@@ -205,6 +206,7 @@ public class Main {
                 tempArrayList.add(line);
             }
         }
+        loaded_file.close();
         return tempArrayList.toArray(new String[0]);
     }
 
